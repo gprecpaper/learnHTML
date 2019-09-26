@@ -1,0 +1,32 @@
+<html>
+<body background="background.png">
+<i><b>Fill up the following form with all your details :</b></i> <br><br> 
+<form action="handler.jsp.html" method="post">
+	<b>Name:</b><input type="text" name="name"><br><br>
+	<b>Roll No.</b>:<input type="text" name="ID"><br><br>     
+	<b>Branch:</b><br>
+		<input type="radio" name="branch" checked value="CE">CE<br>
+		<input type="radio" name="branch" value="ME">ME<br>
+		<input type="radio" name="branch" value="ECE">ECE<br>
+		<input type="radio" name="branch" value="EEE">EEE<br>
+		<input type="radio" name="branch" value="CSE">CSE<br>
+		<input type="radio" name="branch" value="IT">IT<br>
+		<input type="radio" name="branch" value="Other">Others<br><br> 
+		 
+	<b>Semester:</b><select>
+		<option>1<sup>st</sup>
+		<option>2<sup>nd</sup>
+		<option>3<sup>rd</sup>
+		<option>4<sup>th</sup>
+		<option>5<sup>th</sup>
+		<option selected>6<sup>th</sup>               
+		<option>7<sup>th</sup>
+                <option>8<sup>th</sup>
+		</select><br><br>
+	<b>gmail:</b><input type="text" name="gmail" value="@gmail.com"><br><br>
+	<b>comment:</b><br><textarea rows="4" cols="20">Enter your comment</textarea><br><br>
+	<input type="submit" value="send"><br><br>
+	<input type="reset" value"restore defaults" onclick="return confirm('Do you want erase all the data that you have entered?')"><br><br>
+</form>
+</body>
+</html>

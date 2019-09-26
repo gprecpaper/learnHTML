@@ -1,0 +1,1182 @@
+<html>
+<head>
+<link rel='stylesheet' href='/styles/bootstrap.min.css' />
+<style>
+  .jumbotron { padding-bottom: 10px; }
+p {font-size:20;}
+tt {font-size:16;}
+h1 b u {align:center;}
+</style>
+<body bgcolor="lightyellow">
+<h1 align="center"><font face="DigifaceWide" font color="blue"><u>&lt;HTML for Beginners&gt;</u></font></h1>
+<a name="0"></a><marquee align="left">This website is created by <b>Prakumar Gundala</b>. &copy;Reserved 2016 </marquee>
+<h1 align="center"><font face="DigifaceWide"  font color="green">&lt;HTML Basics:&gt;</font></h1>
+<p>An HTML document is a text file that contains text and markups called <i>tags</i>. So, simple text editor such as Notepad can be used to create and edit HTML files. The only requirement is that the documents must have the extension <tt>.htm</tt> or <tt>.html</tt><br>
+An HTML page is all about tags. Tags are similar to instructions or codes. Web browsers know their meaning and interpret them to render text, images, and other elements on the screen properly. The set of HTML tags is fixed and is standardized by w3c. Invalid tags are displayed on the screen as they are.</p>
+
+
+<a name="1"></a>
+<h1 align="center"><font face="DigifaceWide"  font color="green">&lt;1 . First HTML Page:&gt;</font></h1>
+<p>Let us now write simple HTML document that displays a simple text "Hello World !" on the screen.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program</u></h2></th>
+    <th><h2><u>Result</u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        Hello World !<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#1" target="1">view RESULT<img src="images/images/back.png" height="15" width="40"></a></b>
+        </td>
+    <td><iframe name="1" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+
+
+
+
+<a name="2"></a>
+<h1 align="center"><font face="DigifaceWide"  font color="green">&lt;2 . Paragraph:&gt;</font></h1>
+<p>HTML provides a pragraph tag <tt>&lt;p&gt;</tt>,which is used as a fresh paragraph.The tag <tt>&lt;p&gt;</tt> inserts a blank line immediately before the new paragraph.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program</u></h2></th>
+    <th><h2><u>Result</u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;p&gt;This is one sentence paragraph.&lt;/p&gt;<br>
+	&lt;p&gt;Every paragraph starts on its own line, with a little extra line space.&lt;/p&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#2" target="2">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="2" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+
+
+<a name="3"></a>
+<h1 align="center"><font face="DigifaceWide"  font color="green">&lt;3 . Inserting Line Breaks:&gt;</font></h1>
+<p>The tag <tt>&lt;br&gt;</tt> is used to insert a line break.It is similar to the <tt>&lt;p&gt;</tt> tag,but does not insert any blank line.The following example illustrates this and its effect is shown below.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program</u></h2></th>
+    <th><h2><u>Result</u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        This is first line.&lt;br&gt;This is second line.<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#3" target="3">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="3" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+
+
+
+<a name="4"></a>
+<a name="4.1"></a>
+<h1 align="center"><font face="DigifaceWide"  font color="green">&lt;4 . Text Styles:&gt;</font></h1>
+
+<h2><u>4.1.Changing base font</u></b></h2>
+<p>To set the default font style,color,etc., we use the <tt>&lt;basefont&gt;</tt> tag.The <tt>face,size,&color </tt> attributes are used to specify font style,font size, and font color respectively.<br>
+<u>Ex:</u><tt>&lt;basefont face="arial" size="2" color="red"&gt;</tt><br>
+The above code sets the font style "arial",fontsize "2",and font color "red".<br></p>
+
+<a name="4.2"></a>
+<h2><u><b>4.2.Changing style of a specific text</b></u></h2>
+<p>The <tt>&lt;basefont&gt;</tt> tag changes the style of the entire text of the page.If you want to change the style of a specific text, use the <tt>&lt;font&gt;</tt> tag.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program</u></h2></th>
+    <th><h2><u>Result</u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        This a line&lt;br&gt;<br>
+	&lt;font face="Monotype Corsiva" size="4" color="black"&gt;<br>
+	This is another line &lt;/font&gt; &lt;br&gt;<br>This is another line<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br>
+        <b><a href="results.html#4.2" target="4.2">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="4.2" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="4.3"></a>
+<b><h2><u>4.3.Bold text</u></h2></b>
+<p>The tag <tt>&lt;b&gt;</tt> makes the enclosed text bold.Following is an example.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program</u></h2></th>
+    <th><h2><u>Result</u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        HTML = &lt;b&gt;H&lt;/b&gt;yper &lt;b&gt;T&lt;/b&gt;ext<br>
+	&lt;b&gt;M&lt;/b&gt;rakup &lt;b&gt;L&lt;/b&gt;anguage<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#4.3" target="4.3">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="4.3" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="4.4"></a>
+<b><h2><u>4.4.Underlined text</u></h2></b>
+<p>The <tt>&lt;u&gt;</tt> tag makes the enclosed text underlined.Following is an example.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program</u></h2></th>
+    <th><h2><u>Result</u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        PK = &lt;u&gt;P&lt;/u&gt;raveen &lt;u&gt;K&lt;/u&gt;umar<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#4.4" target="4.4">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="4.4" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="4.5"></a>
+<b><h2><u>4.5.Italicized text</u></h2></b>
+<p>The tag <tt>&lt;i&gt;</tt> is used to make the enclosed text italic.Following is an example.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program</u></h2></th>
+    <th><h2><u>Result</u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        This &lt;i&gt;website&lt;i&gt; is designed by &lt;i&gt;Prakumar Gundala &lt;i&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#4.5" target="4.5">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="4.5" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="4.6"></a>
+<b><h2><u>4.6.Combining styles</u></h2></b>
+<p>The style tags can be combined.The following code illustrates how to combine different text formatting tags to get the desired effect.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program</u></h2></th>
+    <th><h2><u>Result</u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;b&gt;Bold&lt;/b&gt;|<br>&lt;i&gt;Italic&lt;/i&gt;|<br>
+	&lt;b&gt;&lt;i&gt;Bold and Italic&lt;/i&gt;&lt;/b&gt;|<br>
+	&lt;i&gt;&lt;b&gt;Italic and Bold&lt;/b&gt;&lt;/i&gt;|<br>	
+	&lt;tt&gt;Teletype&lt;/tt&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br>
+        <b><a href="results.html#4.6" target="4.6">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="4.6" height="250" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="t4"></a>
+<b><h2><u>Common HTML text styles</u></h2></b>
+<table border="5" cellspacing="3">
+<tr bgcolor="gold"><th><h2><u>Style</u></h2></th>
+                     <th><h2><u>Description</u></h2></th>
+		     <th><h2><u>Example</u></h2></th> 
+		     <th><h2><u>Result</u></h2></th> 
+</tr>
+<tr background="background.png"><td>em</td>
+				<td>Emphasis,usually italics</td>
+				<td><tt>&lt;em&gt;some text&lt;/em&gt;</tt></td>
+				<td><em>some text</em></td>
+</tr>
+<tr bgcolor="white"><td>strong</td>
+    <td>Emphasis,usually bold</td>
+    <td><tt>&lt;strong&gt;some text&lt;/strong&gt;</tt></td>			
+    <td><strong>some text</strong></td>					
+</tr>
+<tr background="background.png"><td>code</td>
+				<td>Typed code</td>
+				<td><tt>&lt;code&gt;some code&lt;/code&gt;</tt></td>
+				<td><code>some code</code></td>
+</tr>
+<tr bgcolor="white"><td>q</td>
+    <td>Qutation</td>
+    <td><tt>&lt;q&gt;some text<tt>&lt;/q&gt;</td>			
+    <td><q>some text</q></td>					
+</tr>
+<tr background="background.png"><td>cite</td>
+				<td>Ciatation</td>
+				<td><tt>&lt;cite&gt;some text&lt;/cite&gt;</tt></td>
+				<td><cite>some text</cite></td>
+</tr>
+<tr bgcolor="white"><td>dfn</td>
+    <td>Definition</td>
+    <td><tt>&lt;dfn&gt;some text&lt;/dfn&gt;</tt></td>			
+    <td><dfn>some text</dfn></td>					
+</tr>
+<tr background="background.png"><td>var</td>
+				<td>Variable name</td>
+				<td><tt>&lt;var&gt;some text&lt;/var&gt;</tt></td>
+				<td><var>some text</var></td>
+</tr>
+<tr bgcolor="white"><td>kbd</td>
+    <td>Keyboard text</td>
+    <td><tt>&lt;kbd&gt;some text&lt;/kbd&gt;</tt></td>			
+    <td><kbd>some text</kbd></td>					
+</tr>
+<tr background="background.png"><td>samp</td>
+				<td>sequence of literal characters</td>
+				<td><tt>&lt;samp&gt;some text&lt;/samp&gt;</tt></td>
+				<td><samp>some text</samp></td>
+</tr>
+<tr bgcolor="white"><td>b</td>
+    <td>Bold text</td>
+    <td><tt>&lt;b&gt;some text&lt;/b&gt;</tt></td>			
+    <td><b>some text</b></td>					
+</tr>
+<tr background="background.png"><td>i</td>
+				<td>Italicized text</td>
+				<td><tt>&lt;i&gt;some text&lt;/i&gt;</tt></td>
+				<td><i>some text</i></td>
+</tr>
+<tr bgcolor="white"><td>u</td>
+    <td>Underlined taxt</td>
+    <td><tt>&lt;u&gt;some text&lt;/u&gt;</tt></td>			
+    <td><u>some text</u></td>					
+</tr>
+<tr background="background.png"><td>tt</td>
+				<td>Teletype text</td>
+				<td><tt>&lt;tt&gt;some text&lt;/tt&gt;</tt></td>
+				<td><tt>some text</tt></td>
+</tr>
+<tr bgcolor="white"><td rowspan="2">bdo</td>
+    <td rowspan="2">Biodirection text</td>
+    <td><tt>&lt;bdo dir="ltr"&gt;some text&lt;/bdo&gt;</tt></td>
+            <td><bdo dir="ltr">some text</bdo></td></tr>			
+<tr bgcolor="white"><td><tt>&lt;bdo dir="rtl"&gt;some text&lt;/bdo&gt;</tt></td>
+            <td><bdo dir="rtl">some text</bdo></td>					
+</tr>
+<tr background="background.png"><td>big</td>
+				<td>Bigger text</td>
+				<td><tt>&lt;big&gt;some text&lt;/big&gt;</tt></td>
+				<td><big>some text</big></td>
+</tr>
+<tr bgcolor="white"><td>small</td>
+    <td>Smaller text</td>
+    <td><tt>&lt;small&gt;some text&lt;/small&gt;</tt></td>			
+    <td><small>some text</small></td>					
+</tr>
+<tr background="background.png"><td>s</td>
+				<td>Strikethrought text</td>
+				<td><tt>&lt;s&gt;some text&lt;/s&gt;</tt></td>
+				<td><s>some text</s></td>
+</tr>
+<tr bgcolor="white"><td>del</td>
+    <td>Deleted text</td>
+    <td><tt>&lt;del&gt;some text&lt;/&gt;</tt></td>			
+    <td><del>some text</del></td>					
+</tr>
+<tr background="background.png"><td>sub</td>
+				<td>Subscript</td>
+				<td><tt>H&lt;sup&gt;2&lt;/sup&gt;O</tt></td>
+				<td>H<sub>2</sub>O</td>
+</tr>
+<tr bgcolor="white"><td>sup</td>
+    <td>Superscript</td>
+    <td><tt>x&lt;sup&gt;2&lt;/sup&gt;</tt></td>			
+    <td>x<sup>2</sup></td>					
+</tr>
+
+</table>
+
+
+
+
+
+<a name="5"></a>
+<h1 align="center"><font face="DigifaceWide"  font color="green">&lt;5 . Heading:&gt;</font></h1>
+<p>You may have noticed that many web pages contain different section headings with different sizes and perhaps different colors and fonts. HTML provides tags for such section headings. There are total six levels of headings <tt>h1</tt> through <tt>h6</tt>. The <tt>h1</tt> heading has the largest and <tt>h6</tt> has the smallest font size. The exact size is determined by the browser used. Consider the following HTML code:
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+	&lt;h2&gt;Heading 2&lt;/h2&gt;<br>
+	&lt;h3&gt;Heading 3&lt;/h3&gt;<br>
+	&lt;h4&gt;Heading 4&lt;/h4&gt;<br>
+	&lt;h5&gt;Heading 5&lt;/h5&gt;<br>
+	&lt;h6&gt;Heading 6&lt;/h6&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br><br>
+        <b><a href="results.html#5" target="5">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="5" height="300" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+
+
+
+
+
+<a name="6"></a>
+<h1 align="center"><font face="DigifaceWide"  font color="green">&lt;6 . Preformatted Text:&gt;</font></h1>
+<p>Browsers substitute consecutive white spaces by only one.If you want to keep them as they are,use the &lt;pre&gr; tag. It is essentially creates a table-like layout. Consider the following HTML code:
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        <pre>
+&lt;pre&gt;
+   &lt;b&gt; item      Specification   Manufacturer&lt;/b&gt;	
+   &lt;hr&gt;
+       CPU       Pentium-III     Intel
+       Monitor   SVGA            Samsung
+       Printer   Laser Jet       HP
+&lt;/pre&gt;</pre>  
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#6" target="6">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="6" height="200" width="500"scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+
+
+
+
+
+<a name="7"></a>
+
+<a name="7.1"></a>
+<h1 align="center"><font face="DigifaceWide"  font color="green">&lt;7 . Lists:&gt;</font></h1>
+<p>A list is a collection of one or more items.HTML supports effectively three types of lists for formatting text: unordered (bulleted), ordered (numbered), and definition lists. The lists can also be nested.<br>
+<b>7.1.Unordered lists</b>: An unordered list is created using the <tt>&lt;ul&gt;</tt> tag. Items in the list are created using the <tt>&lt;li&gt;</tt> tag and are diplayed using bullets . Note that an item may be a seperate ordered or unordered list.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;ul&gt;<br>
+	&lt;li&gt;praveen<br>
+	&lt;li&gt;kumar<br>
+	&lt;li&gt;gundala<br>
+	&lt;/ul&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#7.1" target="7.1">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="7.1" height="220" scrolling="no">
+        </iframe></td>
+</tr></p>
+</table>
+<br><table border="2"bordercolor="green" cellpadding="10" bgcolor="white"><caption align="center"><b>Bullet options</b></caption>
+	<tr bgcolor="gold"><th>Bullet options</th><th>Meaning</th><th>Result</th></tr>
+        <tr><td><tt>&lt;ul&gt;</tt></td><td>Default bullet shape is disc.</td><td><ul type="disc"><li>one<li>two</ul></tr>
+	<tr><td><tt>&lt;ul type="disc"&gt;</tt></td><td>Disc shaped bullets are used.</td><td><ul type="disc"><li>one<li>two</ul></tr>
+        <tr><td><tt>&lt;ul type="circle"&gt;</tt></td><td>Circle shaped bullets are used.</td><td><ul type="circle"><li>one<li>two</ul></tr>             
+	<tr><td><tt>&lt;ul type="square"&gt;</tt></td><td>Square shaped bullets are used.</td><td><ul type="square"><li>one<li>two</ul></tr>   
+</table><br><br>
+
+
+<a name="7.2"></a>
+<p><b>7.2.Ordered lists</b>: An unordered list is created using the <tt>&lt;ol&gt;</tt> tag. Items in the list are created using the <tt>&lt;li&gt;</tt> tag and are diplayed using bullets .In this type of list items are displayed using numbers. Note that an item may be a seperate ordered or unordered list.
+<table border="5" cellspacing="3" title="lists">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;ol&gt;<br>
+	&lt;li&gt;HTTP<br>
+	&lt;li&gt;HTML<br>
+	&lt;li&gt;CSS<br>
+	&lt;/ol&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#7.2" target="7.2">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="7.2" height="250" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<br><table><caption align="center"><b>Numberoptions</b></caption><tr><td>
+<table border="2"bordercolor="green" bgcolor="white">
+	<tr bgcolor="gold"><th>Numbering options</th><th>Meaning</th><th>Result</th></tr>
+	<tr><td><tt>&lt;ol&gt;</tt></td><td>Use default number type.</td><td><ol><li>one<li>two</ol></tr>
+	<tr><td><tt>&lt;ol type="1"&gt;</tt></td><td>Use default number type.</td><td><ol type="1"><li>one<li>two</ol></tr>        
+<tr><td><tt>&lt;ol type="A"&gt;</tt></td><td>Use capital letters for numbering.</td><td><ol type="A"><li>one<li>two</ol></tr>
+        <tr><td><tt>&lt;ol start="3"&gt;</tt></td><td>Use default number starting from 3.</td><td><ol start="3"><li>one<li>two</ol></tr>             
+	<tr><td><tt>&lt;ol type="A" start="4"&gt;</tt></td><td>Use capital letters starting from D .</td><td><ol type="A" start="4"><li>one<li>two</ol></tr>   
+</table></td>
+<td>
+<table border="2" bordercolor="green" bgcolor="white">
+	<tr bgcolor="gold"><th>Numbering options</th><th>Meaning</th><th>Result</th></tr>
+	<tr><td><tt>&lt;ol type="a"&gt;</tt></td><td>Use small letters for numbering.</td><td><ol type="a"><li>one<li>two</ol></tr>
+	<tr><td><tt>&lt;ol type="a" start="4"&gt;</tt></td><td>Use small letters starting from d.</td><td><ol type="a" start="4"><li>one<li>two</ol></tr>        
+	<tr><td><tt>&lt;ol type="i"&gt;</tt></td><td>Use small roman numbers.</td><td><ol type="i"><li>one<li>two</ol></tr>
+        <tr><td><tt>&lt;ol type="i" start="2"&gt;</tt></td><td>Use small roman numbers starting from ii.</td><td><ol type"i" start="2"><li>one<li>two</ol></tr>             
+	<tr><td><tt>&lt;ol type="I"&gt;</tt></td><td>Use capital roman numbers.</td><td><ol type="I"><li>one<li>two</ol></tr>   
+</table></td></tr>
+</table><br>
+
+
+<a name="7.3"></a>
+<p><b>7.3.Definition Lists:</b>A definition list is one where list items consist of two parts: a term and its description. It is created using the <tt>&lt;dl&gt;</tt> tag. The term part and the definition part of each item are created using <tt>&lt;dt&gt;</tt>(definition term) and <tt>&lt;dd&gt;</tt>(definiton description) tags, respectively.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;dl&gt;<br>
+	&lt;dt&gt;dl tag&lt;/dt&gt;<br>
+	&lt;dd&gt;It is the outermost tag of definition list&lt;/dd&gt;<br>
+	&lt;dt&gt;dt tag&lt;/dt&gt;<br>
+	&lt;dd&gt;Contains item to be described&lt;/dd&gt;<br>
+	&lt;dt&gt;dd tag&lt;/dt&gt;<br>
+	&lt;dd&gt;Contains description of an item&lt;/dd&gt;<br>
+	&lt;dd&gt;Each term may have multiple descriptions&lt;/dd&gt;<br>
+	&lt;/dl&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#7.3" target="7.3">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="7.3" height="300" width="350" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+
+<a name="7.4"></a>
+<p><b>7.4.Nested lists:</b>Nested lists may be used to display sub-elements of an item. Any of the three types of lists may be nested in another. Arbitrary levels of nesting is possible. In the following example, an ordered list is nested in an unordered list.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;ul&gt;<br>
+	&lt;li&gt;coffee<br>
+	&lt;li&gt;tea<br>
+	&lt;ol&gt;<br>
+	&lt;li&gt;black tea<br>
+	&lt;li&gt;green tea<br>
+	&lt;/ol&gt;<br>
+	&lt;li&gt;milk<br>
+	&lt;/ul&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#7.4" target="7.4">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="7.4" height="300" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+
+
+
+
+
+
+<a name="8"></a>
+<h1 align="center"><font face="DigifaceWide"  font color="green">&lt;8 . Table:&gt;</font></h1>
+<p>Tabular structure was first introduced in HTML 3.2. It is sometimes useful to display data in a two-dimensional tabular format. Tables are also powerful tools for formatting your webpages. You may have seen many web pages with a navigation panel at the left.Perhaps these webpages use tables.</p>
+
+<p>A table is created using three basic tags:<tt>table,tr,</tt> and <tt>td</tt>. The tag <tt>table</tt> is the container of the whole table. The opening tag <tt>&lt;table&gt;</tt> tells the browser that it is to be created. Table-specific properties are also defined here. The closing tag <tt>&lt;/table%gt;</tt> tells the browser that it is the end of the table.Everything else is contained within the <tt>&lt;table&gt;</tt> and <tt>&lt;/table&gt;</tt> tag pair. So, a table always look like this.<br>
+<tt>
+<pre>	&lt;table&gt;
+	.............
+	.............
+	&lt;/table&gt;</pre></tt></p>
+
+<p><i>The following table describes the set of tags used to create tables along with their meaning:</i>
+<table border="2" bordercolor="green" bgcolor="white"><caption align="center"><b>HTML table tags</b></caption>
+<tr bgcolor="gold"><th>Tag</th><th>Meaning</th></tr>
+<tr><td><tt>table</tt></td><td>Represents the whole table</td></tr>
+<tr><td><tt>tr</tt></td><td>Represents a row</td></tr>
+<tr><td><tt>td</tt></td><td>Represents a cell in a row</td></tr>
+<tr><td><tt>th</tt></td><td>Column header</td></tr>
+<tr><td><tt>caption</tt></td><td>Title of the table</td></tr>
+</table></p>
+
+<p>A table consists of a number of rows each of which is made up of a number of cells. The tag <tt>&lt;tr&gt;</tt> cretes a row. The total number of rows in a table is equal to the number of <tt>&lt;tr&gt;</tt> elements. The opening tag <tt>&lt;tr&gt;</tt> and closing tag <tt>&lt;/tr&gt;</tt> indicate the beginning and ending of a table row, respectively.
+<pre>	<tt>&lt;table&gt;</tt><br>
+	<tt>&lt;tr&gt;</tt>.......<tt>&lt;/tr&gt;</tt>
+	<tt>&lt;tr&gt;</tt>.......<tt>&lt;/tr&gt;</tt>
+	........
+	<tt>&lt;tr&gt;</tt>.......<tt>&lt;/tr&gt;</tt>
+	<tt>&lt;/table&gt;</tt></pre></p>
+
+<p>A table or a row cannot contain data. To add data, cells are created within a row. Each cell in a row is defined by the tag <tt>&lt;td&gt;</tt>. The number columns in a row is equal to the number of <tt>&lt;td&gt;</tt> elements. The content of a cell is written in the <tt>&lt;td&gt;</tt> and <tt>&lt;/td&gt;</tt> tag pair. Textual as well as graphical content can be used in cell. Usual tags such as <tt>&lt;p&gt;,&lt;br&gt;,&lt;i&gt;,&lt;b&gt;, & &lt;u&gt;</tt> may be used within the cell.</p>
+<tt>&lt;table&gt;<br>
+	&lt;tr&gt;&lt;td&gt;...&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;tr&gt;&lt;td&gt;...&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;<br>
+	........<br>
+	&lt;tr&gt;&lt;td&gt;...&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;td&gt;...&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;/table&gt;</tt>
+<p>Two other tags are defined: <tt>&lt;th&gt;</tt> and <tt>&lt;caption&gt;</tt>. To add a column header ,the <tt>&lt;th&gt;</tt> tag is used. The title of table is added using the <tt>&lt;caption&gt;</tt> tag. </p>
+<p><i>Let us first create a simple 2x2 table to display the marks of two students in two different subjects.</i>
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;table&gt;<br>
+	&lt;tr&gt;&lt;td&gt;82&lt;/td&gt;&lt;td&gt;80&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;tr&gt;&lt;td&gt;80&lt;/td&gt;&lt;td&gt;75&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;/table&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br>
+        <b><a href="results.html#8.0" target="8.0">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="8.0" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="8.1"></a>
+<h2><b><u>8.1.Border</u></b></h2>
+<p>Adding a table border is very simple. The attribute <tt>border</tt> specifies that a border has to be used. Its value indicates the thickness of the outermost table boundary in pixels. A value 0 (zero) indicates no border.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;table border="1"&gt;<br>
+	&lt;tr&gt;&lt;td&gt;82&lt;/td&gt;&lt;td&gt;80&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;tr&gt;&lt;td&gt;80&lt;/td&gt;&lt;td&gt;75&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;/table&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#8.1" target="8.1">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="8.1" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="8.2"></a>
+<h2><b><u>8.2.Row and Column Header</u></b></h2>
+<p>The tag <tt>&lt;th&gt;</tt> is used to add row/column headers. Row/column headers are center-aligned and in bold font, which distinguishes them from other cells.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;table border="1"&gt;<br>
+&lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;HTML&lt;/th&gt;&lt;th&gt;Java&lt;/th&gt;&lt;/tr&gt;<br>
+	&lt;tr&gt;&lt;th&gt;Prakumar&lt;/th&gt;&lt;td&gt;98&lt;/td&gt;&lt;td&gt;95&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;tr&gt;&lt;th&gt;keshav&lt;/th&gt;&lt;td&gt;100&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;/table&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#8.2" target="8.2">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="8.2" height="250" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="8.3"></a>
+<h2><b><u>8.3.Caption</u></b></h2>
+<p>To add a caption to the table, the <tt>&lt;caption&gt;</tt> tag is used. <br>
+The <tt>&lt;caption&gt;</tt> tag must appear only once and must appear immediately after the <tt>&lt;table&gt;</tt> tag and before the first <tt>&lt;tr&gt;</tt> tag.<br>
+The caption is centered with respect to the table itself. It may appear below or above the table. This can be specified by the <tt>align</tt> attribute. If nothing is mentioned, the caption is placed on the top of the table.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;table border="1"&gt;<br>
+	<tt>&lt;caption&gt;</tt>Marks<tt>&lt;/caption&gt;</tt><br>
+	&lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;HTML&lt;/th&gt;&lt;th&gt;Java&lt;/th&gt;&lt;/tr&gt;<br>
+	&lt;tr&gt;&lt;th&gt;Prakumar&lt;/th&gt;&lt;td&gt;98&lt;/td&gt;&lt;td&gt;95&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;tr&gt;&lt;th&gt;keshav&lt;/th&gt;&lt;td&gt;100&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;/table&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#8.3" target="8.3">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="8.3" height="250" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="8.4"></a>
+<h2><b><u>8.4.Rowspan and Colspan</u></b></h2>
+<p>To make a cell span multiple rows and columns, the tags <tt>&lt;rowspan&gt;</tt> and <tt>&lt;colspan&gt;</tt> are used. The tag <tt>&lt;rowspan&gt;</tt> indicates the number of rows a cell spans while <tt>&lt;colsspan&gt;</tt> indicates the number of columns a cell spans.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;table border="1"&gt;<br>
+&lt;tr&gt;<br>&lt;th rowspan=2&gt;Name&lt;/th&gt;<br>&lt;th colspan=2&gt;Marks&lt;/th&gt;&lt;/tr&gt;<br>
+&lt;tr&gt;&lt;th&gt;HTML&lt;/th&gt;&lt;th&gt;Java&lt;/th&gt;&lt;/tr&gt;<br>	&lt;tr&gt;&lt;th&gt;Prakumar&lt;/th&gt;&lt;td&gt;98&lt;/td&gt;&lt;td&gt;95&lt;/td&gt;&lt;/tr&gt;<br>	&lt;tr&gt;&lt;th&gt;keshav&lt;/th&gt;&lt;td&gt;100&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;/table&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#8.4" target="8.4">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="8.4" height="280" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="8.5"></a>
+<h2><b><u>8.5.Cellspacing and Cellpadding</u></b></h2>
+<p>The attribute <tt>cellspacing</tt> specifies the amount of spaces, in pixels, between adjacent cells.<br>Similarly, <tt>cellpadding</tt> species the amount of spaces in pixels between the cell border and its content.
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;table border="1" cellspacing="10" cellpadding="5"&gt;<br>
+&lt;tr&gt;<br>&lt;th rowspan=2&gt;Name&lt;/th&gt;&lt;th colspan=2&gt;Marks&lt;/th&gt;&lt;/tr&gt;<br>
+&lt;tr&gt;&lt;th&gt;HTML&lt;/th&gt;&lt;th&gt;Java&lt;/th&gt;&lt;/tr&gt;<br>	&lt;tr&gt;&lt;th&gt;Prakumar&lt;/th&gt;&lt;td&gt;98&lt;/td&gt;&lt;td&gt;95&lt;/td&gt;&lt;/tr&gt;<br>	&lt;tr&gt;&lt;th&gt;Lavanya&lt;/th&gt;&lt;td&gt;100&lt;/td&gt;&lt;td&gt;100&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;/table&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#8.5" target="8.5">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="8.5" height="280" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="8.6"></a>
+<h2><b><u>8.6.Nested Tables:</u></b></h2>
+<p>Two tables cannot be placed side-by-side. It is because the table tag automatically inserts a line break at the end. So,they will be placed vertically.<br>One good idea is to place them in another table as shown follows:
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;table border="1"&gt;<br>
+	&lt;tr&gt;&lt;td&gt;<br>
+	&lt;table border="1"&gt;<br>
+	&lt;tr&gt;&lt;td&gt;OM SAI RAM&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;/table&gt;
+	&lt;/td&gt;<br>
+	&lt;td&gt;<br>
+	&lt;table border="1"&gt;<br>
+	&lt;tr&gt;&lt;td&gt;JAI SHREE RAM&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;/table&gt;
+	&lt;/td&gt;&lt;/tr&gt;<br>
+	&lt;/table&gt;<br>
+	&lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br>
+        <b><a href="results.html#8.6" target="8.6">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="8.6" height="300" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+<a name="t8"></a>
+<table border="1" cellspacing="0" bgcolor="white">
+<tr bgcolor="gold"><th colspan=2>Attributes of the table tag</th></tr>
+<tr bgcolor="lightpink"><th>Attribute</th><th>Meaning</th></tr>
+<tr><td><tt>align</tt></td><td>Specifies table alignment. Can have values : left, right and center</td></tr>
+<tr><td><tt>background</tt></td><td>Species the URL of the background image</td></tr>
+<tr><td><tt>bgcolor</tt></td><td>Specifies the background color.Color names or hexadecimal color codes are allowed.</td></tr>
+<tr><td><tt>border</tt></td><td>Specifies the thickness of the table border in number of pixels</td></tr>
+<tr><td><tt>bordercolor</tt></td><td>Specifies the color of the table border.Color names or hexadecimal color codes are allowed.</td></tr>
+<tr><td><tt>cellpadding</tt></td><td>Specifies the amount of space in number of pixels between the cellborder and its content</td></tr>
+<tr><td><tt>cellspacing</tt></td><td>Specifies the amount of space in number of pixels between table cells</td></tr>
+<tr><td><tt>frame</tt></td><td>Specifies whether a frame around the table should be used or not. It can have values border, box, above, below, lhs, rhs, hsides, and rsides</td></tr>
+<tr><td><tt>height</tt></td><td>Specifies the height of the table in pixels</td></tr>
+<tr><td><tt>width</tt></td><td>Specifies the width of the table in pixels</td></tr>
+<tr bgcolor="gold"><th colspan=2>Attributes of tr tag</th></tr>
+<tr><td><tt>align</tt></td><td>Specifies the horizantal alignment of the content of all cells in this row.Can have values: left, right, and center. Its default value is left.</td></tr>
+<tr><td><tt>bgcolor</tt></td><td>Specifies the background color of all cells in this row.Color names or hexadecimal color codes are allowed</td></tr>
+<tr><td><tt>bordercolor</tt></td><td>Specifies the border color of all cells in this row.Color names or hexadecimal color codes </td></tr>
+<tr><td><tt>height</tt></td><td>Specifies height, in pixels, of all cells in this row.</td></tr>
+<tr><td><tt>width</tt></td><td>Specifies width, in pixels, of all cells in this row.</td></tr>
+<tr><td><tt>valign</tt></td><td>Specifies the vertical alignment of the content of all cells in this row. Can have values: top, bottom, and middle. Its default value is middle.</td></tr>
+<tr bgcolor="gold"><th colspan=2>Attributes of td tag</th></tr>
+<tr><td><tt>align</tt></td><td>Specifies the horizantal alignment of the content of this cell.Overrides the align attribute of the <tt>&lt;tr&gt;</tt> tag. Its default value is left.</td></tr>
+<tr><td><tt>bgcolor</tt></td><td>Specifies the background color of this cell. Overrides the bgcolor attribute of the <tt>&lt;tr&gt;</tt> tag.Color names or hexadecimal color codes are allowed.</td></tr>
+<tr><td><tt>bordercolor</tt></td><td>Specifies the border color of this cell. Overrides the bordercolor attribute of the <tt>&lt;tr&gt;</tt> tag.Color names or hexadecimal color codes are allowed.</td></tr>
+<tr><td><tt>colspan</tt></td><td>Specifies the number of columns this cell must span</td></tr>
+<tr><td><tt>rowspan</tt></td><td>Specifies the number of rows this cell must span</td></tr>
+<tr><td><tt>height</tt></td><td>Specifies the height of a cell in pixels</td></tr>
+<tr><td><tt>width</tt></td><td>Specifies the width of a cell in pixels</td></tr>
+<tr><td><tt>valign</tt></td><td>Specifies the vertical alignment of the content of this cell.Overrides the valign attribute of the <tt>&lt;tr&gt;</tt> tag. Its default value is middle.</td></tr>
+</table>
+
+
+
+
+
+
+
+
+<a name="9"></a>
+<h1 align="center"><font face="DigifaceWide"  font color="green">&lt;9 . Forms:&gt;</font></h1>
+<p>The HTML <tt>&lt;form&gt;</tt> tag is a very important tag, which creates a section in your HTML document. It is used to collect information from visitors. It contains special elements called <i>controls</i>. HTML provides several control elements such as buttons, textboxes, passwordfields, checkboxes, radiobuttons, selectionboxes, hiddenfields, etc. Visitors enter data using these control elements.These data are then usually sent (submitted) to a program at the server side.<br>The tag  <tt>&lt;form&gt;</tt> is a container tag and is created as follows:<br>
+<tt>&lt;form&gt;<br>
+&lt;!---Form elements, markups and other contents  go here ---&gt;<br>
+&lt;/form&gt;</tt><br>
+
+<b><u>Optional attributes of  &lt;form&gt; tag:<br>
+</u><tt>action</tt></b>-specifies the target URL, which handles the data.<br>
+<b></u><tt>method</tt></b>-specifies the HTTP method to be used. It can have values  GET or POST.<br>
+<b></u><tt>name</tt></b>-used to refer to the form from scripts or style sheets.<br>
+
+<a name="9.0"></a>
+<h2><b><u>9.0:Form Elements</u></b></h2>
+<p>Form elements are also called Control elements.Control elements are created using the <tt>&lt;input&gt;</tt> tag. It has an attribute <tt>type</tt> that specifies the type of the input. There are 10 input types: <tt>text, password, checkbox, radio, button, submit, reset, hidden, file, & image.</tt>
+
+<table border="2"><caption><b>Attributes of the input tag</b></caption>
+<tr bgcolor="gold"><th>Attribute</th><th>Meaning</th></tr>
+<tr><td><tt>type</tt></td><td>Specifies the type of a control element. Can have values text,password,checkbox,radio,submit,reset,hidden,file,image,button. Its default value is text</td></tr>
+<tr><td><tt>name</tt></td><td>Specifies the name of a control element. Submitted as a part of form.</td></tr>
+<tr><td><tt>value</tt></td><td>Specifies the initial value of the control element, e.g.,text for the text control, caption for submit, reset and buttton elements, etc. Optional except for check box and radio button.</td></tr>
+<tr><td><tt>size</tt></td><td>Specifies the maximum number of characters that can be viewed in case of a text or password field. Otherwise, it specifies the width of the control in pixels.</td></tr>
+<tr><td><tt>maxlength</tt></td><td>Specifies the maximum number of characters a user can enter in a text or password field.</td></tr>
+<tr><td><tt>checked</tt></td><td>Used for check boxes and radio buttons. Indicates that the control is on. The browser ignores for all other controls.</td></tr>
+<tr><td><tt>readonly</tt></td><td>Used for text, password, and file controls. If set, prevents changes to the controls.</td></tr>
+<tr><td><tt>disabled</tt></td><td>If set, disables controls from the user input.</td></tr>
+</table>
+
+<a name="9.1"></a>
+<h2><b><u>9.1:Text field</u></b></h2>
+<p>The most commonly used input element is text field. It is used to get single-line textual data. Its common usage include name, date of birth, address, email address, login name, etc.<br>
+
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+	&lt;form&gt;<br>
+        Name: &lt;input type="text" name="name"&gt;<br>
+	&lt;/form&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#9.1" target="9.1">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="9.1" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="9.2"></a>
+<h2><b><u>9.2.Password field</u></b></h2>
+<p>Password fields are similar to text fields except that characters entered are displayed as dots or asterisks. This allows us to hide information from others.<br>
+It is commonly used to accept sensitive information such as password, credit card number, bank account number, etc.
+
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+	&lt;form&gt;<br>
+        Password: &lt;input type="password" name="pass"&gt;<br>
+        &lt;/form&gt;<br>
+	&lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#9.2" target="9.2">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="9.2" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="9.3"></a>
+<h2><b><u>9.3.Hidden field</u></b></h2>
+<p>Hidden fields are not displayed by the browser and users can never interact with them.However users can see the field by viewing the source code.
+
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+	&lt;form&gt;<br>
+        &lt;input type="hidden" name="userid" value="u_roy"&gt;<br>
+        &lt;/form&gt;<br>
+	&lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#9.3" target="9.3">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="9.3" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="9.4"></a>
+<h2><b><u>9.4.Check box</u></b></h2>
+<p>A checkbox can be in either of the two states <i>checked</i> or <i>unchecked</i>. Checkboxes allow visitors to select one (or more) options from a set of related alternatives.<br> A checkbox is created using the <tt>&lt;input&gt;</tt> tag and specifying the <tt>type="checkbox"</tt>.
+
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+	&lt;form&gt;<br>
+        Which sport do you like the most ?&lt;br&gt;<br>
+	&lt;input type="checkbox" name="volley ball" value="yes"&gt;Volley ball&lt;br&gt;<br>
+	&lt;input type="checkbox" name="cricket" value="yes"&gt;Cricket&lt;br&gt;<br>
+	&lt;input type="checkbox" name="football" value="yes"&gt;Football&lt;br&gt;<br>
+	&lt;input type="checkbox" name="others" value="yes"&gt;Other&lt;br&gt;<br>
+	&lt;/form&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br>
+        <b><a href="results.html#9.4" target="9.4">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="9.4" height="250" scrolling="no">
+        </iframe></td>
+</tr>
+</table>
+<b>Note:</b>A checkbox, by default, is off . If you want to turn it on, use the <tt>checked</tt> attribute.</p>
+
+<a name="9.5"></a>
+<h2><b><u>9.5.Radio button</u></b></h2>
+<p>Radio buttons allow visitors to select any one among a set of related alternatives. A radio button, like acheckbox, can be either of the two states: on (checked) or off (unchecked). When one radio button in a group is selected, the previously selected radio button (if any) is unselected. Radio buttons are unchecked by default. You can make a radio button checked initially, but only one in a group may be in the checked state.<br>
+A radio button (checkbox) is created using the <tt>&lt;input&gt;</tt> tag and specifying the <tt>type="radio"</tt>.
+
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;form&gt;<br>
+	This website is created by ............&lt;br&gt;<br> 
+	&lt;input type="radio" name="creator" value="yes"&gt;Sundar Pichai&lt;br&gt;<br>
+	&lt;input type="radio" name="creator" value="yes"&gt;Mark Juckerburg&lt;br&gt;<br>
+	&lt;input type="radio" name="creator" value="yes" checked&gt;Prakumar Gundala&lt;br&gt;<br>
+	&lt;input type="radio" name="creator" value="yes"&gt;Sharukh khan&lt;br&gt;<br>
+	&lt;/form&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br>
+        <b><a href="results.html#9.5" target="9.5">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="9.5" height="250" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="9.6"></a>
+<h2><b><u>9.6.Selection list (Drop-down list)</u></b></h2>
+<p>A selection list allows visitors to choose one (or more) options among a set of options. The advantage of selection list is that, it takes less space than check boxes or radio buttons. The disadvantage is that users cannot see all the options until they click on it. <br>
+A selection list is created using the <tt>&lt;select&gt;</tt> tag. Items of a selection list are created using the <tt>&lt;option&gt;</tt> tag. By default, the first option is displayed, although any item can be displayed using the <tt>selected</tt> attribute tag for it. The <tt>size</tt> attribute specifies how many items are to be displayed. If the attribute <tt>multiple</tt> is given the value "yes", users may select multiple items.
+
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;form&gt;<br>
+	Select the personality you like the most ?<br>
+ 	&lt;select&gt;<br>
+	&lt;option&gt;honest<br>
+	&lt;option&gt;joyful<br>
+	&lt;option selected&gt;creative<br>
+	&lt;option&gt;studious<br>
+	&lt;option&gt;courageous<br>
+	&lt;option&gt;brave<br>
+	&lt;option&gt;calm<br>
+	&lt;option&gt;hard work<br>
+	&lt;option&gt;awkward<br>
+	&lt;option&gt;weak<br>
+	&lt;option&gt;intelligent<br>
+	&lt;option&gt;not mentioned<br>
+	&lt;option&gt;<br>
+	&lt;/select&gt;<br>
+	&lt;/form&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#9.6" target="9.6">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="9.6"height="500" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="9.7"></a>
+<h2><b><u>9.7.Text area </u></b></h2>
+<p>A text area is an extension of a text field, where the text can span multiple lines.<br>
+A text area is created using the <tt>&lt;textarea&gt;</tt> and <tt>&lt;/textarea&gt;</tt> tags. The number of rows and columns may be set using the attributes <tt>rows</tt> and <tt>cols</tt>, respectively.
+
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;form&gt;<br>
+	Enter your comment:<br>
+	&lt;textarea rows="4", cols="30"&gt;<br>
+	Comment please....!<br>
+	&lt;/textarea&gt;<br>
+	&lt;/form&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#9.7" target="9.7">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="9.7" height="250" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="9.8"></a>
+<h2><b><u>9.8.File upload</u></b></h2>
+<p>The file form field allows users to select one or more files to be sent to the serverside. The files could be a text, image, or other files. When the form is submitted, the content of the files is sent to the server.
+
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;form action="upload.jsp" method="post"&gt;<br>
+	Select a question file(.xml file)&lt;br&gt;<br>
+	&lt;input type="file" name="question"&gt;&lt;br&gt;<br>
+	&lt;input type="submit" value="Upload"&gt;&lt;br&gt;<br>
+	&lt;/form&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#9.8" target="9.8">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="9.8" height="250" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="9.9"></a>
+<h2><b><u>9.9.Button</u></b></h2>
+<p>Push buttons can be created using the <tt>&lt;input&gt;</tt> tag, with the <tt>type</tt> attribute set to "button". The caption is the value of the <tt>value</tt> attribute of the input tag. The following code creates a button with caption "Logout"<br>
+<tt>&lt;input type="button" value="Logout"&gt;</tt><br>
+Buttons, created using the <tt>&lt;input&gt;</tt> tag, can only have a caption. Buttons can also be created using <tt>&lt;button&gt;</tt> tag. The following code creates the same button as already discussed.<br>
+<tt>&lt;button&gt; Logout &lt;/button&gt;</tt><br>
+Buttons, created this way, can have fancy text as well as image as their caption. The following table shows how to create different types of buttons using the <tt>&lt;input&gt;</tt> and <tt>&lt;button&gt;</tt> tags.
+
+<table border="1" ><caption><b>Different types of buttons</b></caption>
+<tr bgcolor="gold"><th>HTML code</th><th>Result</th></tr>
+<tr bgcolor="white"><td><tt>&lt;input type="button" value="Logout"&gt;</tt></td><td align="center"><input type="button" value="Logout"></td></tr>
+<tr bgcolor="white"><td><tt>&lt;button&gt; Logout &lt;/input&gt;</tt></td><td align="center"><button> Logout </input></td></tr>
+<tr bgcolor="white"><td><tt>&lt;button style="font-style:italic"&gt; Logout &lt;/button&gt;</tt></td><td align="center"><button style="font-style:italic"> Logout </button></td></tr>
+<tr bgcolor="white"><td><tt>&lt;button style="color:red"&gt; Logout &lt;/button&gt;</tt></td><td align="center"><button style="color:red"> Logout </button></td></tr>
+<tr bgcolor="white"><td><tt>&lt;button&gt; Next &lt;img src="back.png"&gt; &lt;/button&gt;</tt></td><td align="center"><button> Next <img src="images/back.png" height="15"> </button></td></tr>
+<tr bgcolor="white"><td><tt>&lt;button&gt; Loading &lt;img src="loader.gif"&gt;&lt;/button&gt;</tt></td><td align="center"><button> Loading <img src="images/loader.gif" height="15"> </button></td></tr>
+<tr bgcolor="white"><td><tt>&lt;button&gt; &lt;img src="facebook.png"&gt;/gprecpaper &lt;/button&gt;</tt></td><td align="center"><button> <img src="images/facebook.png"><b><big>/gprecpaper</big></b> </button></td></tr>
+</table>
+
+<a name="9.10"></a>
+<h2><b><u>9.10.Action buttons</u></b></h2>
+<p>There are 2 types of buttons that we use for almost all forms: <tt>submit</tt> button and <tt>reset</tt> button.<br><b>Submit button: </b>Submit button is used to send information to the server script whose URL is specified by the <tt>action</tt> attribute of the <tt>&lt;form&gt;</tt> tag. A submit button is created as follows:<br><tt>&lt;input type="submit" value="send"&gt;</tt><br>This code creates a button with caption "send" which when clicked, sends form's data to the server.<br><b>Reset button :</b>When a reset button is clicked, form fields are assigned their default initial values. The attribute <tt>type</tt> species that it is a reset button and <tt>value</tt> specifies the text to be displayed on the reset button.<br>Clicking on a reset button accidentally erases the values supplied by the users to the form fields. To avoid this situation, a handler may be added as follows: 
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;form action="http://www.gprecpaper.weebly.com"&gt;<br>
+	&lt;input type="submit" value="send"&gt;<br>
+	&lt;input type="reset" value="Restore Defaults" <br>onclick="return confirm('Do you really want to reset the form?')"&gt;<br>
+	&lt;/form&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br>
+        <b><a href="results.html#9.10" target="9.10">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="9.10" height="200" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="9.11"></a>
+<h2><b><u>9.11.Image button</u></b></h2>
+<p>The submit button in a form has a gray coloured simple appearance, unless you use styles for it. A simple way to create a good looking graphic submit button is to use the <tt>&lt;input&gt;</tt> tag with <tt>type</tt> attribute set to "image"
+
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        &lt;form action="body.html#4"&gt;<br>
+	&lt;input type="image" src="back.png"&gt;<br>
+	&lt;/form&gt;<br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br>
+        <b><a href="results.html#9.11" target="9.11">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="9.11" height="250" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="10"></a>
+<h1 align="center"><font face="DigifaceWide"  font color="green">&lt;10 . Frames&gt;</font></h1>
+<p>HTML allows us to divide a web page into several blocks called <i><b>frames</b></i>. Each frame may display a seperate web page. So, frames allow us to display multiple HTML document in one browser window.All browsers do not support frames, but most of them do.<br>
+For example the following code creates two frames seperated vertically.
+
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;frameset cols="20%,80%"&gt;<br>
+	&lt;frame name="left" src="http://www.gprecpaper.weebly.com"&gt;<br>
+	&lt;frame name="right" src="learnHTML.html"&gt;<br>
+	&lt;/frameset&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="10.html" target="10">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="10" width="500" height="250"scrolling="auto">
+        </iframe></td>
+</tr>
+</table></p>
+
+<a name="10.1"></a>
+<h2><u>10.1.Frameset element</u></h2>
+<p>The <tt>&lt;frameset&gt;</tt> element is put in the parent HTML document without any <tt>&lt;body&gt;</tt> tag. It contains <tt>&lt;frame&gt;</tt> elements each of which creates a frame. The element <tt>&lt;frameset&gt;</tt> defines the characteristic of the frames such as the number of frames to be created, their orientation, width, height, etc.</p>
+
+<a name="10.2"></a>
+<h2><u>10.2.Frame Element</u></h2>
+<p>The element <tt>&lt;frame&gt;</tt> specifies the HTML document to br loaded in each frame. It has several attributes discussed as follows:
+<ul>
+<li><p><tt>name</tt>-refers to the name of the frame.</p>
+<li><p><tt>src</tt>-specifies the location of the initial webpage to be loaded.</p>
+<li><p><tt>noresize</tt>-if present, indicates that the frame is not resizable.</p>
+<li><p><tt>scrolling</tt>-specifies the scroll information about the frame. It can have the following values.</p>
+<ul type="circle"><li><p><tt>auto</tt>-specifies that scrollbars will be added as when necessary.</p>
+		  <li><p><tt>yes</tt>-specifies that scrollbars are to be added always.</p>
+		  <li><p><tt>no</tt>-specifies that no scrollbars will be provided.</p>
+		</ul>
+<li><p><tt>frameborder</tt>-specifies the border information about the frame. It can have the following values.</p>
+<ul type="circle"><li><p><tt>1</tt>-indicates that the border is drawn.</p>
+		  <li><p><tt>0</tt>-indicates that the frame will not have any border.</p>
+		</ul>
+<li><p><tt>marginwidth</tt>-specifies the amount of space in pixels to be added between the frame's contents in its left and right margins.</p>
+<li><p><tt>marginheight</tt>-specifies the amount of space in pixels to be added between the frame's contents in its top and bottom margins.</p>
+</ul><br>
+<p>The following HTML code creates three frames as shown:
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;frameset cols="40%,60%"&gt;<br>
+	&lt;frame name="left" src="body.html#4" scrolling="no"&gt;<br>
+        &lt;frameset rows="60%,40%"&gt;<br>
+	&lt;frame name="right-top" src="form.html"&gt;<br>
+	&lt;frame name="right-bottom" <br>src="http://www.gprecpaper.weebly.com"&gt;<br>
+        &lt;/frameset&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="10.2.html" target="10.2">view RESULT<img src="images/back.png"></a></b>
+        </td>
+    <td><iframe name="10.2" width="500" height="250" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+
+<a name="10.3"></a>
+<h2><u>10.3.Specifying Target</u></h2>
+<p>The <tt>target</tt> attribute may be set for elements that create links such as <tt>&lt;a&gt;, &lt;link&gt;, &lt;area&gt;, &lt;form&gt;</tt>, etc. The value of <tt>target</tt> attribute must be an existing frame name.<br.
+The following example demonstrates how to specify the target attribute.</p>
+<p>First we define a frameset document <tt>main.html</tt> as follows.<br>
+        <tt>&lt;html&gt;<br>
+        &lt;frameset rows="20%,80%"&gt;<br>
+	&lt;frame name="top" src="top.html"&gt;<br>
+	&lt;frame name="bottom" src="body.html"&gt;<br>
+        &lt;/frameset&gt;<br>
+	&lt;/html&gt;</tt><br>
+This divides the window into two frames horizantally. In the top frame, HTML document <tt>top.html</tt> is loaded. It looks like this:<br>
+<tt>&lt;html&gt;<br>
+&lt;body&gt;<br>
+<pre>&lt;a href ="learnHTML.html" target="bottom"&gt;HTML for Beginners&lt;/a&gt;	<br>&lt;a href ="body.html#4" target="bottom"&gt;ABOUT US&lt;/a&gt;</pre>		
+&lt;/html&gt;<br></tt>
+
+<p>It contains two links <tt>HTML for Beginners</tt> and <tt>ABOUT US</tt> each of which when clicked, the respective link is opened in the frame named <tt>bottom</tt>.The following frame shows the result .
+
+<table><tr><th><a href="main.html" target="10.3"><button>see Result</button></a></th></tr>
+<tr><td>
+<iframe name="10.3" height="400" width="500" scrolling="auto" style="align:center">
+        </iframe></td>
+</th></tr></p></table>	
+	
+
+
+
+
+
+
+
+
+</body>
+</html>
+      

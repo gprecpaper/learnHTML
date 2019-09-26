@@ -1,0 +1,42 @@
+<h2><u>10.****</u></h2>
+<p>*********
+
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#***" target="***">view RESULT<img src="back.png"></a></b>
+        </td>
+    <td><iframe name="***" height="250" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+
+<h2><u>10.****</u></h2>
+<p>*********
+
+<table border="5" cellspacing="3">
+<tr bgcolor="orange" ><th><h2><u>sample program<u></h2></th>
+    <th><h2><u>Result<u> </h2></th>
+</tr>
+<tr background="background.png"><td valign="top">
+        <tt>&lt;html&gt;<br>
+        &lt;body&gt;<br>
+        
+        &lt;/body&gt;<br>
+        &lt;/html&gt;</tt><br><br><br>
+        <b><a href="results.html#***" target="***">view RESULT<img src="back.png"></a></b>
+        </td>
+    <td><iframe name="***" height="250" scrolling="no">
+        </iframe></td>
+</tr>
+</table></p>
+
+      
